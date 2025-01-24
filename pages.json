@@ -36,21 +36,24 @@
         "path" : "goods_detail/goods_detail",
         "style" : 
         {
-          "navigationBarTitleText" : "商品"
+          "navigationBarTitleText" : "商品详情"
         }
       },
       {
         "path" : "goods_list/goods_list",
         "style" : 
         {
-          "navigationBarTitleText" : ""
+          "navigationBarTitleText" : "商品列表",
+          "onReachBottomDistance": 150,
+          "enablePullDownRefresh": true,
+          "backgroundColor": "#F8F8F8"
         }
       },
       {
         "path" : "search/search",
         "style" : 
         {
-          "navigationBarTitleText" : ""
+          "navigationBarTitleText" : "搜索商品"
         }
       }
         
