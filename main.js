@@ -1,4 +1,6 @@
 import App from './App'
+// 1. 导入 store 的实例对象
+import store from './store/store.js'
 
 //导入网络请求包
 import { $http } from '@escook/request-miniprogram'
@@ -33,7 +35,8 @@ import './uni.promisify.adaptor'
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
-  ...App
+  ...App,
+  store
 })
 app.$mount()
 // #endif
